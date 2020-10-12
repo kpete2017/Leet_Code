@@ -6,7 +6,6 @@ const uniqueMorseCode = (words) => {
     
     words.forEach( word => {
         let tempString = "";
-        console.log(word)
         for( let c of word) {
             tempString += morsecode[c.charCodeAt(0)-'a'.charCodeAt(0)]
         }
