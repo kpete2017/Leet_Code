@@ -35,8 +35,7 @@ var freqAlphabets = function(s) {
         } 
         else if(s[i] != "#") {
             answer += map[s[i]];
-        }
-        console.log(answer, i)
+        }    
     }
     return answer
 };
