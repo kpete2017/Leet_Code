@@ -9,7 +9,7 @@ class FlipAndInvertImage
                 reversedArray[j] = reversedArray[j] === 1 ? 0 : 1
                 j += 1
             end
-            result.append(reversedArray)
+            result << reversedArray
             i += 1
         end
         result
